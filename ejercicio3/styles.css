@@ -1,0 +1,20 @@
+.container {
+    width: 300px; /* Ancho del cuadrado */
+    height: 300px; /* Alto del cuadrado */
+    margin: 200px auto; /* Margen superior e inferior de 20px para centrar verticalmente */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra horizontalmente */
+}
+
+.box {
+    width: calc(33.33% - 10px); /* 33.33% del ancho del contenedor menos el espacio entre cajas */
+    height: calc(33.33% - 10px); /* 33.33% de la altura del contenedor menos el espacio entre cajas */
+    background-color: mistyrose;
+    margin: 5px; /* Espacio entre las cajas */
+    box-sizing: border-box;
+}
+
+
+
+
