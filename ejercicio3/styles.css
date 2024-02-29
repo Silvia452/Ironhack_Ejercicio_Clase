@@ -10,11 +10,44 @@
 .box {
     width: calc(33.33% - 10px); /* 33.33% del ancho del contenedor menos el espacio entre cajas */
     height: calc(33.33% - 10px); /* 33.33% de la altura del contenedor menos el espacio entre cajas */
-    background-color: mistyrose;
     margin: 5px; /* Espacio entre las cajas */
     box-sizing: border-box;
 }
 
+#box1{
+    background-color: salmon;
+}
+#box2{
+    background-color: deepskyblue;
+}
 
+#box3{
+    background-color: blueviolet;
+}
+
+#box4{
+    background-color: aqua;
+}
+
+#box5{
+    background-color: crimson;
+}
+
+#box6{
+    background-color: hotpink;
+}
+
+#box7{
+    background-color: mediumpurple;
+}
+
+
+#box8{
+    background-color: green;
+}
+
+#box9{
+    background-color: magenta;
+}
 
 
